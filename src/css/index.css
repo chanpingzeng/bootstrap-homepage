@@ -1,0 +1,148 @@
+.masthead {
+	text-align: center;
+    padding: 90px 0 110px;
+    background: linear-gradient(45deg,#020031 0,#6d3353 100%);
+    color: #fff;
+    margin: -20px 0 0 0;
+}
+.masthead h1 {
+	font-weight: 700;
+	font-size: 100px;
+}
+.masthead h2 {
+	font-size: 30px;
+}
+@media screen and (max-width: 767px){
+	.masthead{
+		padding: 60px 0 80px;
+	}
+	.masthead h1 {
+	    font-size: 60px;
+	}
+	.masthead h2 {
+	    font-size: 18px;
+	}
+}
+@media screen and (min-width: 768px){
+	.masthead h1 {
+	    font-size: 90px;
+	}
+}
+@media screen and (min-width: 1000px){
+	.masthead h1 {
+	    font-size: 100px;
+	}
+	.projects .row .item img {
+		width:285px;
+	}
+}
+@media screen and (min-width: 1200px){
+	.projects .row .item img {
+		width:252px;
+	}
+}
+.masthead ul {
+	display: inline-block;
+	padding: 0;
+}
+.masthead ul li {
+	list-style: none;
+}
+.masthead ul li a {
+	color: #9d9d9d;
+}
+.masthead:after {
+	display: block;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.5;
+	background: url(http://www.bootcss.com/assets/img/bs-docs-masthead-pattern.png) repeat center center;
+}
+.bc-social {
+	padding: 15px 0;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+.bc-social ul {
+	padding: 0;
+	margin: 0;
+}
+.bc-social ul li {
+	list-style: none;
+	display: inline-block;
+	line-height: 14px;
+}
+.bc-social ul .weibo::before{
+	display: inline-block;
+	content: '|';
+	color: #ccc;
+	padding: 0 10px;
+}
+.bc-social ul li a {
+	color: #555;
+}
+.projects {
+	text-align: center;
+}
+.projects .projects-header {
+	width: 60%;
+	margin: 60px auto 40px;
+	border-bottom: 1px solid #ccc;
+}
+.projects .projects-header h2 {
+	font-size: 42px;
+}
+.projects .projects-header p {
+
+}
+.projects .item {
+	max-width: 310px;
+	margin: 0 auto 30px;
+	height: 352px;
+    border: 1px solid #ccc;
+    padding-top: 5px;
+}
+.projects .caption p {
+    width: 90%;
+    margin: 0 auto;
+}
+/*底部*/
+.footer{
+	margin-top: 70px;
+	padding: 50px 0;
+}
+.list-nostyle {
+	padding: 0;
+}
+.list-nostyle li{
+	list-style: none;
+}
+.list-nostyle li a{
+	color: #777;
+}
+/*描点*/
+.my_book{
+	display: none;
+	position: fixed;
+	right: 2%;
+	bottom: 10%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #ccc;
+	color: #000;
+}
+.my_book:hover{
+	background-color: #555;
+	color: white;
+	text-decoration-line: none;
+}
+.active{
+	display: block;
+}
